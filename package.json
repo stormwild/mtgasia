@@ -1,0 +1,20 @@
+{
+  "name": "mtg",
+  "version": "1.0.0",
+  "description": "Alex MTG Exam",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexander Torrijos",
+  "license": "ISC",
+  "dependencies": {
+    "@primer/octicons": "^9.1.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "webpack-cli": "^3.3.7"
+  }
+}

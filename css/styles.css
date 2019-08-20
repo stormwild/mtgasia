@@ -1,0 +1,4 @@
+.box {
+  outline: 1px dotted #ccc;
+  background-color: rgba(red, green, blue, .5);
+}
