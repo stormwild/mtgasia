@@ -120,19 +120,49 @@
 .mtg .mtg-article .mtg-btn-restock {
   background: url(/img/card_details/icon_card-restock.png) 0 55%/1.5rem auto no-repeat; }
 
-.mtg .mtg-article .mtg-btn-view-foil {
+.mtg .mtg-article .mtg-btn-outline {
   color: #092c19;
   font-weight: 700;
-  border-width: 2px;
-  margin-top: 3rem; }
-  .mtg .mtg-article .mtg-btn-view-foil:hover {
+  border-width: 2px; }
+  .mtg .mtg-article .mtg-btn-outline:hover {
     color: rgba(255, 255, 255, 0.7);
     background-color: rgba(9, 44, 25, 0.5);
     border-color: rgba(9, 44, 25, 0.5); }
-  .mtg .mtg-article .mtg-btn-view-foil:not(:disabled):not(.disabled):active {
+  .mtg .mtg-article .mtg-btn-outline:not(:disabled):not(.disabled):active {
     color: rgba(255, 255, 255, 0.3);
     background-color: rgba(9, 44, 25, 0.7);
     border-color: rgba(9, 44, 25, 0.7); }
 
-.mtg .mtg-article .mtg-article-price {
-  font-size: 2em; }
+.mtg .mtg-article .mtg-article-h3 {
+  font-family: source-sans-pro, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 2rem; }
+
+.mtg .mtg-article .mtg-article-versions .nav-item {
+  text-align: center;
+  width: 25%;
+  margin-right: 1px; }
+  .mtg .mtg-article .mtg-article-versions .nav-item:last-child {
+    width: 24%;
+    margin-right: 0px; }
+
+.mtg .mtg-article .mtg-article-versions .nav-tabs .nav-link:not(.active) {
+  border-color: #dee2e6 #dee2e6 #dee2e6 #dee2e6; }
+
+.mtg .mtg-article .mtg-article-versions .tab-content {
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-top: 0; }
+
+.mtg .mtg-article .btn-add-cart {
+  color: #f2b833;
+  font-weight: 700;
+  background-color: #092c19;
+  border-color: #092c19; }
+  .mtg .mtg-article .btn-add-cart:hover {
+    color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(9, 44, 25, 0.5);
+    border-color: rgba(9, 44, 25, 0.5); }
+  .mtg .mtg-article .btn-add-cart:not(:disabled):not(.disabled):active {
+    color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(9, 44, 25, 0.7);
+    border-color: rgba(9, 44, 25, 0.7); }

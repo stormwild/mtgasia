@@ -46,7 +46,7 @@
       background: url(/img/card_details/icon_card-restock.png) 0 55% / 1.5rem auto no-repeat;
     }
 
-    .mtg-btn-view-foil {
+    .mtg-btn-outline {
       color: $primary-celtic-green;
       font-weight: 700;
       border-width: 2px;
@@ -62,13 +62,56 @@
         background-color: rgba($color: $primary-celtic-green, $alpha: .7);
         border-color: rgba($color: $primary-celtic-green, $alpha: .7);
       }
-      margin-top: 3rem;
     }
 
-    .mtg-article-price {
-      font-size: 2em;
+    .mtg-article-h3 {
+      font-family: $body-font;
+      font-size: 2rem;
     }
 
-    
+    .mtg-article-versions {
+      .nav-item {
+        text-align: center;
+        width: 25%;
+        margin-right: 1px;
+
+        &:last-child {
+          width: 24%;
+          margin-right: 0px;
+        }
+      }
+      .nav-tabs .nav-link {
+        &:not(.active) {
+          border-color: #dee2e6 #dee2e6 #dee2e6 #dee2e6;
+        }
+      }
+
+      .tab-content {
+        padding: 1rem;
+        border: 1px solid #ccc;
+        border-top: 0;
+      }
+    }
+
+    .btn-add-cart {
+      color: $secondary-medieval-yellow;
+
+      font-weight: 700;
+
+      background-color: $primary-celtic-green;
+      border-color: $primary-celtic-green;
+
+      &:hover {
+        color: rgba($color: $white, $alpha: .7);
+        background-color: rgba($color: $primary-celtic-green, $alpha: .5);
+        border-color: rgba($color: $primary-celtic-green, $alpha: .5);
+      }
+
+      &:not(:disabled):not(.disabled):active {
+        color: rgba($color: $white, $alpha: .3);
+        background-color: rgba($color: $primary-celtic-green, $alpha: .7);
+        border-color: rgba($color: $primary-celtic-green, $alpha: .7);
+      }
+    }
   }
 }

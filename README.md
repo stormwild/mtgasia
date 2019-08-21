@@ -14,3 +14,7 @@ npm start
 ```
 
 Navigate to `http://localhost:9000`
+
+## Demo Screenshot (Work-in-progress)
+
+![](./docs/localhost_9000_.png)
