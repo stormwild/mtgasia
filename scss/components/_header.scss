@@ -1,0 +1,67 @@
+
+.mtg {
+  background-color: $white;
+
+  .header {
+    background: url(/img/card_details/banner.jpg) no-repeat top center scroll; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  
+    min-height: 30vw;
+  }
+
+  .header .header-main {
+    background-color: rgba($primary-celtic-green, 0.7) !important;
+    padding: 1.5rem 0 1rem;
+
+    .mtg-logo {
+      > img {
+        width: auto;
+        height: 2.5rem; /* 40px */
+      }
+    }
+
+    .mtg-info {
+      color: $secondary-medieval-yellow;
+      line-height: 2.5;
+
+      a {
+        &:hover {
+          text-decoration: none !important;
+          border-bottom: none !important;
+        }
+      }
+    }
+
+    .mtg-cart, .mtg-user {
+      display: inline-block;
+      padding-left: 1.5rem;
+    }
+
+    .mtg-cart {
+      background: url('/img/card_details/icon_hp-cart.png') 0 50% / 1rem 1rem no-repeat;
+    }
+    
+    .mtg-user {
+      background: url('/img/card_details/icon_hp-user.png') 0 50% / 1rem 1rem no-repeat;
+    }
+  }
+  
+  .header .navbar-green {
+    background-color: rgba($primary-celtic-green, 0.98);
+    line-height: 1;
+    padding: .25rem 1rem;
+    text-transform: uppercase;
+  }
+
+  .header .navbar-dark .navbar-nav .active>.nav-link,
+  .header .navbar-dark .navbar-nav .nav-link {
+    color: $secondary-medieval-yellow;
+
+    &:hover {
+      color: rgba($color: $secondary-medieval-yellow, $alpha: 0.7)
+    }
+  }
+}

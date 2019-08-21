@@ -1,0 +1,74 @@
+.mtg {
+  .mtg-article {
+    .mtg-article-title {
+      background: url(/img/card_details/icon_hp-bflower.png) 0 55% no-repeat;
+      padding-left: 3rem;
+      margin: 2rem 0 2.5rem;
+      text-transform: uppercase;
+    }
+
+    .mtg-article-img {
+      display: block;
+      background-color: $black;
+      border-radius: 1rem;
+      padding: 1rem;
+    }
+
+    .mtg-btn-wishlist,
+    .mtg-btn-restock {
+      color: $black;
+
+      &:hover {
+        color: rgba($color: $black, $alpha: .7);
+        background-color: rgba($color: $secondary-medieval-yellow, $alpha: .3);
+        border-color: rgba($color: $secondary-medieval-yellow, $alpha: .3);
+      }
+
+      &:not(:disabled):not(.disabled):active {
+        color: rgba($color: $black, $alpha: .5);
+        background-color: rgba($color: $secondary-medieval-yellow, $alpha: .3);
+        border-color: rgba($color: $secondary-medieval-yellow, $alpha: .3);
+      }
+      font-family: $body-font;
+      font-weight: 700;
+      text-transform: capitalize;
+      border: none;
+      border-radius: 0;
+      border-bottom: 4px solid $secondary-medieval-yellow;
+      padding-left: 1rem;
+    }
+
+    .mtg-btn-wishlist {
+      background: url(/img/card_details/icon_card-heart.png) 0 55% / 1.5rem auto no-repeat;
+    }
+
+    .mtg-btn-restock {
+      background: url(/img/card_details/icon_card-restock.png) 0 55% / 1.5rem auto no-repeat;
+    }
+
+    .mtg-btn-view-foil {
+      color: $primary-celtic-green;
+      font-weight: 700;
+      border-width: 2px;
+
+      &:hover {
+        color: rgba($color: $white, $alpha: .7);
+        background-color: rgba($color: $primary-celtic-green, $alpha: .5);
+        border-color: rgba($color: $primary-celtic-green, $alpha: .5);
+      }
+
+      &:not(:disabled):not(.disabled):active {
+        color: rgba($color: $white, $alpha: .3);
+        background-color: rgba($color: $primary-celtic-green, $alpha: .7);
+        border-color: rgba($color: $primary-celtic-green, $alpha: .7);
+      }
+      margin-top: 3rem;
+    }
+
+    .mtg-article-price {
+      font-size: 2em;
+    }
+
+    
+  }
+}

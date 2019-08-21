@@ -1,4 +1,138 @@
-.box {
-  outline: 1px dotted #ccc;
-  background-color: rgba(red, green, blue, .5);
-}
+.mtg {
+  font-family: source-sans-pro, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+  .mtg h1, .mtg h2, .mtg h3 {
+    font-family: classico-urw, source-sans-pro, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+  .mtg .btn {
+    font-family: classico-urw, source-sans-pro, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    text-transform: uppercase; }
+  .mtg a {
+    color: #f2b833; }
+    .mtg a:hover {
+      color: rgba(242, 184, 51, 0.7); }
+    .mtg a:active {
+      color: #f2b732; }
+  .mtg .box {
+    outline: 1px dotted #ccc;
+    background-color: rgba(255, 255, 255, 0.5); }
+  .mtg .icon {
+    display: inline-block;
+    vertical-align: text-top; }
+  .mtg .icon.icon-search::after {
+    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M15.7 13.3l-3.81-3.83A5.93 5.93 0 0 0 13 6c0-3.31-2.69-6-6-6S1 2.69 1 6s2.69 6 6 6c1.3 0 2.48-.41 3.47-1.11l3.83 3.81c.19.2.45.3.7.3.25 0 .52-.09.7-.3a.996.996 0 0 0 0-1.41v.01zM7 10.7c-2.59 0-4.7-2.11-4.7-4.7 0-2.59 2.11-4.7 4.7-4.7 2.59 0 4.7 2.11 4.7 4.7 0 2.59-2.11 4.7-4.7 4.7z'/%3E%3C/svg%3E"); }
+
+.mtg .icon {
+  display: inline-block;
+  vertical-align: baseline;
+  min-width: 1rem; }
+
+.mtg .icon-light {
+  fill: #fff; }
+
+.mtg {
+  background-color: #fff; }
+  .mtg .header {
+    background: url(/img/card_details/banner.jpg) no-repeat top center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 30vw; }
+  .mtg .header .header-main {
+    background-color: rgba(9, 44, 25, 0.7) !important;
+    padding: 1.5rem 0 1rem; }
+    .mtg .header .header-main .mtg-logo > img {
+      width: auto;
+      height: 2.5rem;
+      /* 40px */ }
+    .mtg .header .header-main .mtg-info {
+      color: #f2b833;
+      line-height: 2.5; }
+      .mtg .header .header-main .mtg-info a:hover {
+        text-decoration: none !important;
+        border-bottom: none !important; }
+    .mtg .header .header-main .mtg-cart, .mtg .header .header-main .mtg-user {
+      display: inline-block;
+      padding-left: 1.5rem; }
+    .mtg .header .header-main .mtg-cart {
+      background: url("/img/card_details/icon_hp-cart.png") 0 50%/1rem 1rem no-repeat; }
+    .mtg .header .header-main .mtg-user {
+      background: url("/img/card_details/icon_hp-user.png") 0 50%/1rem 1rem no-repeat; }
+  .mtg .header .navbar-green {
+    background-color: rgba(9, 44, 25, 0.98);
+    line-height: 1;
+    padding: .25rem 1rem;
+    text-transform: uppercase; }
+  .mtg .header .navbar-dark .navbar-nav .active > .nav-link,
+  .mtg .header .navbar-dark .navbar-nav .nav-link {
+    color: #f2b833; }
+    .mtg .header .navbar-dark .navbar-nav .active > .nav-link:hover,
+    .mtg .header .navbar-dark .navbar-nav .nav-link:hover {
+      color: rgba(242, 184, 51, 0.7); }
+
+.mtg .search-form .input-group {
+  width: 40rem; }
+
+.mtg .search-form .form-control {
+  border: none; }
+  .mtg .search-form .form-control:focus {
+    box-shadow: none; }
+
+.mtg .search-form #search-icon {
+  background-color: #fff;
+  border: none; }
+
+.mtg .mtg-article .mtg-article-title {
+  background: url(/img/card_details/icon_hp-bflower.png) 0 55% no-repeat;
+  padding-left: 3rem;
+  margin: 2rem 0 2.5rem;
+  text-transform: uppercase; }
+
+.mtg .mtg-article .mtg-article-img {
+  display: block;
+  background-color: #000;
+  border-radius: 1rem;
+  padding: 1rem; }
+
+.mtg .mtg-article .mtg-btn-wishlist,
+.mtg .mtg-article .mtg-btn-restock {
+  color: #000;
+  font-family: source-sans-pro, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  text-transform: capitalize;
+  border: none;
+  border-radius: 0;
+  border-bottom: 4px solid #f2b833;
+  padding-left: 1rem; }
+  .mtg .mtg-article .mtg-btn-wishlist:hover,
+  .mtg .mtg-article .mtg-btn-restock:hover {
+    color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(242, 184, 51, 0.3);
+    border-color: rgba(242, 184, 51, 0.3); }
+  .mtg .mtg-article .mtg-btn-wishlist:not(:disabled):not(.disabled):active,
+  .mtg .mtg-article .mtg-btn-restock:not(:disabled):not(.disabled):active {
+    color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(242, 184, 51, 0.3);
+    border-color: rgba(242, 184, 51, 0.3); }
+
+.mtg .mtg-article .mtg-btn-wishlist {
+  background: url(/img/card_details/icon_card-heart.png) 0 55%/1.5rem auto no-repeat; }
+
+.mtg .mtg-article .mtg-btn-restock {
+  background: url(/img/card_details/icon_card-restock.png) 0 55%/1.5rem auto no-repeat; }
+
+.mtg .mtg-article .mtg-btn-view-foil {
+  color: #092c19;
+  font-weight: 700;
+  border-width: 2px;
+  margin-top: 3rem; }
+  .mtg .mtg-article .mtg-btn-view-foil:hover {
+    color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(9, 44, 25, 0.5);
+    border-color: rgba(9, 44, 25, 0.5); }
+  .mtg .mtg-article .mtg-btn-view-foil:not(:disabled):not(.disabled):active {
+    color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(9, 44, 25, 0.7);
+    border-color: rgba(9, 44, 25, 0.7); }
+
+.mtg .mtg-article .mtg-article-price {
+  font-size: 2em; }

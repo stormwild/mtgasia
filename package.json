@@ -5,12 +5,14 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "scss": "node-sass --watch scss -o css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Alexander Torrijos",
   "license": "ISC",
   "dependencies": {
-    "@primer/octicons": "^9.1.1"
+    "@primer/octicons": "^9.1.1",
+    "node-sass": "^4.12.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.5.5",
