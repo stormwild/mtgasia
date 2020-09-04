@@ -12,7 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "@primer/octicons": "^9.1.1",
-    "node-sass": "^4.12.0"
+    "node-sass": "^4.13.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.5.5",
